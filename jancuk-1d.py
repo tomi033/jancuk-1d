@@ -88,14 +88,14 @@ def siapa():
 		siapa()
 	else:
 		os.system('clear')
-		jalan("\033[1;97mSelamat datang \033[1;92m" +nama+ "\n\033[1;97mMejuah Juah Lae, Horas Medan !!")
+		jalan("\033[1;97mSelamat datang \033[1;92m" +nama+ "\n\033[1;97mAssalam mualaikum,Mohon di jawab !!")
 		time.sleep(1)
 		loginSC()
 		
 		
 def loginSC():
 	os.system('clear')
-	print"\033[1;97mSilahkan login Lisensi Scriptnya dulu Lae,kalau gak tau Lisensinya,silahkan download Lisensinya di website yang barusan di Alihkan Otomatis\n"
+	print"\033[1;97mSilahkan login Lisensi Scriptnya dulu Lae,kalau gak tau Lisensinya,silahkan masuk di Facebook ku Lisensinya yang barusan di Alihkan Otomatis\n"
 	os.system('xdg-open https://www.facebook.com/jung.saak')
         username = raw_input("\033[1;96m[*] \033[1;97mID \033[1;91m: \033[1;92m")
 	password = raw_input("\033[1;96m[*] \033[1;97mPassword \033[1;91m: \033[1;92m")
