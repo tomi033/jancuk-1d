@@ -81,7 +81,7 @@ vuln = "\033[32mVuln"
 
 def siapa():
 	os.system('clear')
-	nama = raw_input("\033[1;97mSiapa nama Bapak kamu ? \033[1;91m: \033[1;92m")
+	nama = raw_input("\033[1;97mSiapa nama kamu ? \033[1;91m: \033[1;92m")
 	if nama =="":
 		print"\033[1;96m[!] \033[1;91mIsi yang benar"
 		time.sleep(1)
@@ -105,7 +105,7 @@ def loginSC():
 		login()
 	else:
 		print"\033[1;96m[!] \033[1;91mSalah!!"
-		os.system('xdg-open https://tatawirdat.blogspot.com')
+		os.system('xdg-open https://www.facebook.com/jung.saak')
                 time.sleep(1)
                 LoginSC()
 
