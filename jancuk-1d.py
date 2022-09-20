@@ -107,7 +107,7 @@ def loginSC():
 		print"\033[1;96m[!] \033[1;91mSalah!!"
 		os.system('xdg-open https://www.facebook.com/jung.saak')
                 time.sleep(1)
-                LoginSC()
+                loginSC()
 
 def login():
 	os.system('clear')
