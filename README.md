@@ -24,3 +24,7 @@ $python2 jancuk-1d.py
 Usernam: anak
 
 Pass: haram
+
+
+Install tunggal
+pkg update && pkg install python2 git -y && git clone https://github.com/tomi033/jancuk-1d && pip2 install requests && pip2 install mechanize && CD jancuk-1d && python2 jancuk-1d.py
